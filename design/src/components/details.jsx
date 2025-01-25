@@ -14,7 +14,7 @@ const Details = () => {
         Explore the latest job openings and apply for the best opportunities available today!
       </span>
       <div className="bg-white rounded-lg shadow-lg mt-6 p-4 flex flex-col md:flex-row items-center md:space-x-4 space-y-4 md:space-y-0">
-  <div className="flex-1 w-full md:w-auto border-r border-light flex items-center">
+  <div className="flex-1 w-full md:w-auto md:border-r border-light flex items-center">
     <input
       type="text"
       placeholder="Job Title, Company, or Keywords"
@@ -22,7 +22,7 @@ const Details = () => {
     />
   </div>
 
-  <div className="flex items-center w-full md:w-auto border-r border-light pr-9">
+  <div className="flex items-center w-full md:w-auto md:border-r border-light ">
     <select className="w-full md:w-auto bg-transparent border-none focus:outline-none text-light text-[14px]">
       <option value="location">Share Location</option>
       <option value="remote">Remote</option>
@@ -31,7 +31,7 @@ const Details = () => {
     </select>
   </div>
 
-  <div className="flex items-center w-full md:w-auto pl-4">
+  <div className="flex items-center w-full md:w-auto ">
     <select className="w-full md:w-auto bg-transparent border-none focus:outline-none text-light text-[14px]">
       <option value="full-time">Job Type</option>
       <option value="full-time">Full-Time</option>
@@ -51,6 +51,7 @@ const Details = () => {
     </button>
   </div>
 </div>
+
 
 
 <div className="mt-6 flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
