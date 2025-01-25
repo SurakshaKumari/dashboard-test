@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#0154AA', // blue color
-        secondary: '#F4F4F4', // gray color
-        accent: '#737A91', // blue text color buttons
-        dark: '#333333', // black text
-        light: '#585D6E', // Light color gray
+        primary: '#0154AA',
+        secondary: '#F4F4F4',
+        accent: '#737A91', 
+        dark: '#333333', 
+        light: '#585D6E', 
         box: '#F6F9FF'
       },
       fontFamily: {
@@ -16,8 +16,10 @@ module.exports = {
       },
       font:{        'display': ['"Neue Haas Grotesk Display Pro"', 'sans-serif'],
 
-
-      }  
+      }  ,
+      lineHeight: {
+        'custom': '16.8px',
+      },
       },
   },
   plugins: [],
